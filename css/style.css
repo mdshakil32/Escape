@@ -1,0 +1,301 @@
+@font-face {
+	font-family: BrandonGrotesque-Light;
+	src: url(../fonts/BrandonGrotesque-Light.ttf);
+}
+@font-face {
+	font-family: BrandonGrotesque-Bold;
+	src: url(../fonts/BrandonGrotesque-Bold.ttf);
+}
+@font-face {
+	font-family:BrandonGrotesque-Medium ;
+	src: url(../fonts/BrandonGrotesque-Medium.ttf);
+}
+@font-face {
+	font-family:BrandonGrotesque-Regular;
+	src: url(../fonts/BrandonGrotesque-Regular.ttf);
+}
+@font-face {
+	font-family: Cubano;
+	src: url(../fonts/Cubano.ttf);
+}
+
+body{
+	font-family:BrandonGrotesque-Regular;
+
+}
+/*header start*/
+header{
+	background-image: url(../images/banner.png) ;
+
+	color: white;
+	background-repeat: no-repeat;
+    background-position-x: center;
+
+}
+
+/*menubar start*/
+.menubar{
+	padding: 10px 0;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	/* color: rgba(255, 255, 255, 0.5); */
+	color: white;
+}
+.nav-icon {
+	margin-top: 14px;
+}
+.navbar-brand {
+	font-family: Cubano;
+	font-size: 24px;
+
+}
+.navbar-nav{
+	font-family:BrandonGrotesque-Medium ;
+	font-size: 18px;
+}
+.menu li{}
+/*menubar end*/
+
+/*title start*/
+.title{
+	padding: 90px 0;
+}
+.title h1{
+	font-family: BrandonGrotesque-Light;
+	font-size: 32px;
+	text-transform: capitalize;
+	margin-top: 40px;
+}
+.title h2{
+	font-family: BrandonGrotesque-Bold;
+	font-size: 66px;
+	text-transform: uppercase;
+	margin-top: 40px;
+}
+.custom-btn{
+	font-family: BrandonGrotesque-Bold;
+	font-size: 23px;
+	color: white;
+	border: 1px solid white;
+	padding: 20px 60px;
+	margin-top: 40px;
+
+}
+/*title end*/
+
+
+/*header end*/
+
+/*web-&-identity start*/
+.identity{
+	background-color: #FAFAFA;
+}
+
+.h1_bold{
+	font-family: BrandonGrotesque-Bold;
+}
+
+.web,.identity{
+	padding: 50px 0;
+}
+.web-wrapper,.identity-wrapper{}
+.web-article h1,.identity-article h1{
+	font-family: BrandonGrotesque-Light;
+	font-size: 60px;
+	margin-bottom: 25px;
+}
+.web-article p,.identity-article p{
+	font-size: 18px;
+}
+.web-img,.identity-article{}
+.web-img img,.identity-article img{
+	margin-top: 25px;
+}
+
+/*web-&-identity end*/
+
+/*service-type start*/
+.service-type{}
+.service-wrapper{
+	    margin: 50px 0;
+}
+.single-service{
+	margin-top: 40px;
+}
+.service-logo{}
+.service-logo img {}
+.service-content{}
+.service-content h1{
+	font-family:BrandonGrotesque-Medium ;
+	font-size: 22px;
+}
+.service-content p{
+	font-size: 18px;
+}
+
+/*service-type end*/
+
+/*client start*/
+
+.client{
+	background-color: #FAFAFA;
+}
+.client-wrapper{
+	padding: 50px 0;
+}
+.client-header{}
+.client-header h1{
+	font-family: BrandonGrotesque-Light;
+
+	font-size: 60px;
+}
+.h1_bold{}
+.client-header h2{
+	font-size: 22px;
+}
+.client-review{}
+.single-client{
+	    margin-top: 35px;
+}
+.client-img{}
+.client-img img{}
+.comment {
+    background-color: white;
+    padding: 20px 75px;
+    margin-top: 22px;
+    font-size: 26px;
+}
+
+
+
+/*client end*/
+
+/*sponsor start*/
+.sponsor{}
+.sponsor-wrapper{
+	padding: 30px 0px;
+}
+.sponsor-wrapper img {
+	margin: 10px 0;
+}
+
+/*sponsor end*/
+
+
+/*team start*/
+.team{
+	background-color: #111111;
+	color: #ebebeb;
+	padding: 50px 0;
+}
+.team-wrapper{}
+.team-header{}
+.team-header h1{
+	font-family: BrandonGrotesque-Light;
+	font-size: 60px;
+}
+.h1_bold{}
+.team-header h2{
+	font-size: 22px;
+	color: #777777;
+}
+.team-members{
+	    margin-top: 40px;
+}
+.single-member{}
+.member-img{}
+.member-name{
+	    margin-top: 15px;
+}
+.member-name h1{
+	font-family: BrandonGrotesque-Bold;
+	font-size: 18px;
+}
+.member-name p{
+	font-size: 16px;
+}
+.social-media{}
+.social-media img{
+width: 30px;
+}
+.member-img{}
+.team-footer{
+	    margin-top: 30px;
+}
+.team-footer p{
+	font-size: 20px;
+}
+/*team end*/
+
+/*contact start*/
+.contact{
+	background-color: #7690C5;
+	color: #ffffff;
+	padding: 50px 0;
+
+}
+.contact-wrapper{
+
+}
+.hello{}
+.hello-header{}
+.hello-header h1{
+	font-family: BrandonGrotesque-Light;
+	font-size: 60px;
+}
+.hello-header p{
+	font-size: 18px;
+}
+.contact-methods{}
+.single-contact{
+	    margin-top: 35px;
+}
+.single-contact i{
+	font-size: 30px;
+}
+.single-contact a{
+	font-size: 18px;
+	color: #ffffff;
+}
+.link-style{}
+.contact{}
+
+/*contact message */
+.message{
+	padding-left: 10px;
+}
+.message textarea{}
+.custom-fc{
+	margin-top: 10px;
+	margin-bottom: 30px;
+    color: #bbbbbb;
+    padding: 25px;
+    font-size: 18px;
+    font-weight: 500;
+
+
+ 
+}
+
+
+/*contact message */
+
+/*contact end*/
+
+/*footer start*/
+footer{
+	font-size: 16px;
+	color: #ffffff;
+	background-color:#7690C5;
+	
+}
+.footer-wrapper{
+	border-top: 1px solid #87A0D2;
+	padding-top: 15px;
+}
+.footer-wrapper p{}
+
+/*footer end*/
+
+

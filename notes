@@ -1,0 +1,33 @@
+menubar padding 10px 0
+
+title padding 90 0
+title h1 padding top 40
+title h2 padding top 40
+title custom-btn padding top 40
+
+web-identity padding 50 0
+web-identity h1 margin-bottom 25
+web-identity img margin-top 25
+
+service-type margin 50 0
+single-service margin 40 0
+
+client wrapper padding: 50 0
+single client margin-top: 35
+comment padding: 30 75
+
+sponser padding: 30 0
+
+team padding: 50 0
+tem member margin-top: 40
+member name margin-top: 15
+team-footer margin-top: 30
+
+contact padding: 50 0
+single contact margin-top: 35
+custom-fc padding: 25
+input,textarea : margin-top: 10, margin-bottom: 30px
+
+footer-wrapper padding-top: 15
+
+

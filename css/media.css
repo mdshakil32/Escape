@@ -1,0 +1,279 @@
+@media (max-width: 575.98px){
+/*menubar start*/ 
+	.menu ul li a {
+		text-align: center;
+		padding: 0 0 !important;
+	}
+	.title h1 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+.title h2 {
+    font-size: 32px;
+    margin-top: 10px;
+}
+.custom-btn {
+    font-size: 18px;
+    padding: 10px 40px;
+    margin-top: 20px;
+}
+/*menubar end*/
+
+/*web & identity start*/
+.web-wrapper, .identity-wrapper {
+    text-align: center;
+}
+.web-img img, .identity-article img {
+    width: 130px;
+}
+.web-article h1, .identity-article h1 {
+    font-size: 38px;
+}
+.web-article p, .identity-article p {
+    font-size: 17px;
+}
+/*web & identity end*/
+
+
+/*service start*/
+.single-service {
+    text-align: center;
+}
+.service-logo img {
+    width: 45px;
+}
+
+/*service end*/
+/*client start*/
+.client-header h1 {
+    font-size: 38px;
+}
+.client-header h2 {
+    font-size: 20px;
+}
+.single-client {
+    margin-top: 35px;
+    text-align: center;
+}
+.client-img img {
+    width: 130px;
+}
+.comment {
+    padding: 15px 25px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+/*client end*/
+/*team start*/
+.team-header h1 {
+    font-size: 38px;
+}
+.team-header h2 {
+    font-size: 20px;
+}
+.single-member {
+    margin: 20px 0;
+}
+.member-img {
+    width: 150px;
+}
+/*team end*/
+
+/*contact start*/
+    /*contact-hello start*/
+        .hello-header {
+	        text-align: center;
+        }
+
+        .hello-header h1 {
+            font-size: 38px;
+        }
+        .hello-header p {
+            font-size: 16px;
+        }
+    /*contact-hello end*/
+
+.contact-methods {
+    text-align: center;
+}
+.single-contact {
+    margin-top: 25px;
+    display: inline-block;
+}
+.single-contact i {
+    font-size: 25px;
+}
+.single-contact a {
+    font-size: 16px;
+    margin-left: -10px;
+}
+.message {
+    padding-left: 0px;
+}
+   
+/*contact end*/
+
+
+}
+
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px){
+/*menubar start*/ 
+	.menu ul li a {
+		text-align: center;
+		padding: 0 0 !important;
+	}
+	.title h1 {
+    font-size: 25px;
+    margin-top: 15px;
+}
+.title h2 {
+    font-size: 47px;
+    margin-top: 15px;
+}
+.custom-btn {
+    font-size: 20px;
+    padding: 15px 55px;
+    margin-top: 40px;
+}
+/*menubar end*/
+/*web & identity start*/
+.web-img img, .identity-article img {
+    width: 150px;
+}
+.web-wrapper, .identity-wrapper {
+    text-align: center;
+}
+/*web & identity end*/
+
+/*service start*/
+.single-service {
+    text-align: center;
+}
+.service-logo img {
+    width: 45px;
+}
+.service-content h1 {
+    font-size: 20px;
+}
+.service-content p {
+    font-size: 17px;
+}
+/*service end*/
+/*client start*/
+
+.single-client {
+    margin-top: 35px;
+    text-align: center;
+}
+.client-img img {
+    width: 150px;
+}
+.comment {
+    background-color: white;
+    padding: 20px 55px;
+    margin-top: 10px;
+    font-size: 21px;
+}
+/*client end*/
+/*team start*/
+.team-header h1 {
+    font-size: 55px;
+}
+.team-header h2 {
+    font-size: 20px;
+}
+/*team end*/
+/*contact start*/
+.hello-header h1 {
+    font-size: 55px;
+}
+.single-contact {
+    margin-top: 20px;
+}
+.message {
+    padding-left: 0px;
+}
+/*contact end*/
+
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px){ 
+/*menubar start*/
+.menu li {
+    margin-left: 5px;
+}
+
+	.title h1 {
+    font-size: 30px;
+    margin-top: 35px;
+}
+.title h2 {
+    font-size: 58px;
+    margin-top: 35px;
+}
+.custom-btn {
+    font-size: 21px;
+    padding: 15px 55px;
+    margin-top: 40px;
+}
+/*menubar end*/
+
+/*web-identity start*/
+.web-article h1, .identity-article h1 {
+    font-size: 52px;
+}
+.web-article p, .identity-article p {
+    font-size: 17px;
+}
+.web-img img, .identity-article img {
+    margin-top: 85px;
+}
+/*web-identity end*/
+
+/*client start*/
+.comment {
+    padding: 15px 45px;
+    margin-top: 13px;
+    font-size: 21px;
+}
+/*client end*/
+/*contact start*/
+.single-contact a {
+    font-size: 15px;
+}
+
+/*contact end*/
+
+
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {  
+/*contact start*/
+	
+ 
+ .link-style {
+    margin-left: inherit;
+}
+/*contact end*/
+
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+/*client start*/
+	.comment {
+    background-color: white;
+    padding: 20px 75px;
+    margin-top: 35px;
+}
+/*client end*/
+.link-style {
+    margin-left: inherit;
+}
+}
